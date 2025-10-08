@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 from urllib.request import urlopen
 import json
 from copy import deepcopy
-
+st.write("hello")
 @st.cache_data
 def load_data(path):
     df = pd.read_csv(path)
