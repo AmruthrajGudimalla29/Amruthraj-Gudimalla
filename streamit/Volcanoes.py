@@ -21,7 +21,7 @@ def load_data(path):
     v_df = pd.read_csv(path)
     return v_df
 
-v_df = load_data("volcano_ds_pop.csv")
+v_df = load_data("./streamit/volcano_ds_pop.csv")
 
 if st.checkbox("Show Dataframe"):
 
