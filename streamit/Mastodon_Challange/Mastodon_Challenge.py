@@ -32,7 +32,7 @@ sentiment_df['sentiment_category'] = np.where(sentiment_df['sentiment'] > 0, 'Po
 
 #####################################################################
 # Plotting the TimeSeries
-df = pd.read_csv("final_df.csv")
+df = pd.read_csv("./streamit/Mastodon_Challange/final_df.csv")
 
 df = df.rename(columns={"Unnamed: 0":"date"})
 
