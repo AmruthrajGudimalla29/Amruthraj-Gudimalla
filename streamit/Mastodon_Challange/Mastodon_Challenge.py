@@ -14,7 +14,7 @@ st.title("./Mastodon_Challange/Mastodon Challenge")
 
 #####################################################################
 #Sentiment
-sentiment_df = pd.read_csv("combined_sentiment_results.csv")
+sentiment_df = pd.read_csv("./Mastodon_Challange/combined_sentiment_results.csv")
 
 #remove japanese hashtags
 
