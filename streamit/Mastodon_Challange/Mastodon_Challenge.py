@@ -10,11 +10,11 @@ from copy import deepcopy
 
 # --- Logo and Title ---
 #st.image("mastodon_logo.png", width=100)
-st.title("./Mastodon_Challange/Mastodon Challenge")
+st.title("Mastodon Challenge")
 
 #####################################################################
 #Sentiment
-sentiment_df = pd.read_csv("./Mastodon_Challange/combined_sentiment_results.csv")
+sentiment_df = pd.read_csv("combined_sentiment_results.csv")
 
 #remove japanese hashtags
 
