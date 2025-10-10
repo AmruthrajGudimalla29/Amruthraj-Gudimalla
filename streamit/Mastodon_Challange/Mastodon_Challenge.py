@@ -10,7 +10,7 @@ from copy import deepcopy
 
 # --- Logo and Title ---
 #st.image("mastodon_logo.png", width=100)
-st.title("Mastodon Challenge")
+st.title("./Mastodon_Challange/Mastodon Challenge")
 
 #####################################################################
 #Sentiment
